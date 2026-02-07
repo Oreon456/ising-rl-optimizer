@@ -6,7 +6,7 @@ Solution for the **"RL for Ising Model"** challenge by **Rosatom** from team **f
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg)](https://pytorch.org/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
-## 📋 Problem Description
+## Problem Description
 
 Develop an RL agent capable of minimizing the total energy of a system by sequentially changing vertex charges in a graph from the Ising model.
 
@@ -23,7 +23,7 @@ $$
 
 **Goal**: Minimize energy through sequential vertex charge modifications.
 
-## 🧠 Solution
+## Solution
 
 ### Architecture
 
@@ -39,11 +39,11 @@ We used **Deep Q-Network (DQN)** with a graph neural network based on **Graph At
 
 ### Results
 
-- ✅ **Top score on Round 1 leaderboard**
-- ✅ Effective energy minimization on test configurations
-- ✅ Agent learns to find near-optimal solutions
+- **Top score on Round 1 leaderboard**
+- Effective energy minimization on test configurations
+- Agent learns to find near-optimal solutions
 
-## 🚀 Usage
+## Usage
 
 ### Requirements
 
@@ -68,14 +68,14 @@ Main notebook sections:
 5. **Validation** - Testing on validation configurations
 6. **Visualization** - Optimization process animation
 
-## 📊 Visualization
+## Visualization
 
 The notebook includes an interactive animation showing:
 - System energy changes over time
 - Current graph configuration
 - Agent actions at each step
 
-## 🔬 Methodology
+## Methodology
 
 ### RL Formalization
 
@@ -105,24 +105,24 @@ Input (Graph) → GAT Layer 1 → GAT Layer 2 → GAT Layer 3 → FC Layers → 
 
 **f0rtYtwO**
 
-## 📝 Notes
+## Notes
 
 Despite achieving the top score on the Round 1 leaderboard, the team did not advance further in the competition. Nevertheless, this solution demonstrates effective application of Reinforcement Learning methods to combinatorial optimization problems.
 
-## 🤝 Contributing
+## Contributing
 
 Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](../../issues).
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - AI Challenge 2025 organizers
 - Rosatom for the interesting problem
 
-## 📬 Contact
+## Contact
 
 Feel free to reach out if you have questions about the implementation!
 
